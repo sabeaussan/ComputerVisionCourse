@@ -26,8 +26,7 @@ L'environnement d'ex√©cution est contenu dans un Docker afin de faciliter son d√
 Depuis un terminal, placez-vous dans le dossier de travail `course` puis tapez :
 
 ```bash
-docker run --rm -it (--gpus all) --name vision_course \
--v PATH:/workspace -w /workspace sabeauss/vision_course bash
+docker run --rm -it (--gpus all) --name vision_course -v PATH:/workspace -w /workspace sabeauss/vision_course bash
 ```
 
 Sur Linux : `PATH="$PWD"`  
