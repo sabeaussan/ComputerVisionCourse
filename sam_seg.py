@@ -8,14 +8,12 @@ DATA_DIR = os.path.join("datasets", "classification")
 nms = True
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-
-
 # Initialize predictor with configuration
 overrides = dict(
     conf=0.3,
     task="segment",
     mode="predict",
-    model="models/sam3.pt",
+    model=os.path.join("models","sam3.pt"),
     half=device.type == "cuda",  # Use FP16 for faster inference
     save=False,
 	imgsz=200
