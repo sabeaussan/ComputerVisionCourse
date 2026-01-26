@@ -7,8 +7,8 @@
 
 - les slides sont disponibles [ici](https://tobumo-my.sharepoint.com/:b:/g/personal/samuel_beaussant_akkodis_com/IQBVp9Gsz2dlQKN7V85A0f2AAVqMdEurbSGftCOeHVDoWzM?e=WFgf4s)
 - Le code se trouve [ici](https://tobumo-my.sharepoint.com/:u:/g/personal/samuel_beaussant_akkodis_com/IQAHvxgWz3BUTLVvFSEZnr6wAbw-x-5XOwNnHYaNygIcWj8?e=pHgZ0j)
-- Le dataset est dispo [ici](https://tobumo-my.sharepoint.com/:u:/g/personal/samuel_beaussant_akkodis_com/IQC6BhvKSN3pSp9janqo2lg3AWWE1E8aUMp_bGkEwc14Kck?e=E7iMeh)
-- Les modeles sont téléchargeable [ici](https://tobumo-my.sharepoint.com/:u:/g/personal/samuel_beaussant_akkodis_com/IQANIvOQ4dZpQozMWZ61p2zaAbqPmn7vS9t9HBcyoRaei0g?e=x8THtX)
+- Le dataset est dispo [ici](https://tobumo-my.sharepoint.com/:u:/g/personal/samuel_beaussant_akkodis_com/IQDHLXJrWlh2QbWekEYgv8HNAb7w23BBLUOyOIHxwDcV4bo?e=fIEk6C)
+- Les modeles sont téléchargeable [ici](https://tobumo-my.sharepoint.com/:u:/g/personal/samuel_beaussant_akkodis_com/IQBFS3HdBZzOSatgm0EGWFyQAQsxikOHqVWWRlrujHWeuIU?e=TtsiPa)
 - Un model YOLO pré-entrainé est disponible [ici](https://tobumo-my.sharepoint.com/:u:/g/personal/samuel_beaussant_akkodis_com/IQDHdZCezsiVSrYjWYwp6Rq1AfC3HxJp9hR7OBEYtY5bcW8?e=TEyRTV)
 
 
