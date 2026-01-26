@@ -5,6 +5,7 @@
 
 ## Fichiers et données:
 
+- les slides sont disponibles [ici](https://tobumo-my.sharepoint.com/:b:/g/personal/samuel_beaussant_akkodis_com/IQBVp9Gsz2dlQKN7V85A0f2AAVqMdEurbSGftCOeHVDoWzM?e=WFgf4s)
 - Le code se trouve [ici](https://tobumo-my.sharepoint.com/:u:/g/personal/samuel_beaussant_akkodis_com/IQAHvxgWz3BUTLVvFSEZnr6wAbw-x-5XOwNnHYaNygIcWj8?e=pHgZ0j)
 - Le dataset est dispo [ici](https://tobumo-my.sharepoint.com/:u:/g/personal/samuel_beaussant_akkodis_com/IQC6BhvKSN3pSp9janqo2lg3AWWE1E8aUMp_bGkEwc14Kck?e=E7iMeh)
 - Les modeles sont téléchargeable [ici](https://tobumo-my.sharepoint.com/:u:/g/personal/samuel_beaussant_akkodis_com/IQANIvOQ4dZpQozMWZ61p2zaAbqPmn7vS9t9HBcyoRaei0g?e=x8THtX)
@@ -43,9 +44,19 @@ docker run --rm -it (--gpus all) --name vision_course -v PATH:/workspace -w /wor
 ```
 
 Sur Linux : `PATH="$PWD"`  
-Sur Windows : `$PWD.Path` (PowerShell) ou `%CD%` (cmd)
+Sur Windows : `%CD%` (command prompt uniquement)
 
 L'argument optionnel `--gpus all` vous permet d'utiliser votre GPU CUDA-compatible à l'intérieur du container Docker.
+
+Si vous souhaitez plutot faire une installation sur votre système, il vous faudra installer les librairies suivantes (requiert git installé):
+
+```bash
+pip install -U ultralytics
+pip uninstall clip -y
+pip install git+https://github.com/ultralytics/CLIP.git
+pip install transformers
+pip install scikit-learn
+```
 
 Vous pouvez modifier les scripts Python depuis votre éditeur favori et les lancer depuis le Docker avec :
 
